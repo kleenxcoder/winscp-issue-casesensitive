@@ -1,0 +1,6 @@
+#connect ftp
+open ftp://anonymous:xxxx@speedtest.tele2.net/
+#copy production file
+put .\\..\java\\Empty-Java-Project-Example\\pom.xml /upload/
+#clean exit
+exit
